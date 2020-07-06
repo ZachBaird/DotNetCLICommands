@@ -13,3 +13,9 @@ dotnet publish -r win-x64 -c Release /p:PublishSingleFile=true
 ```cs
 dotnet new --install Microsoft.AspNetCore.Blazor.Templates::3.0.0-preview9.19465.2
 ```
+
+* To install the Nyancat too:
+
+```cs
+dotnet tool install --global nyancat --version 1.4.0
+```
