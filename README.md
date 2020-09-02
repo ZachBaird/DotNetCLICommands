@@ -8,6 +8,18 @@ Note that these commands assume you are running at least .NET Core 3.
 dotnet publish -r win-x64 -c Release /p:PublishSingleFile=true
 ```
 
+* To install Bolero.Templates for F# WASM on top of Blazor
+
+```cs
+dotnet new -i Bolero.Templates
+```
+
+* To start a new F# WASM Bolero application
+
+```cs
+dotnet new bolero-app -o HelloWorld
+```
+
 * To install the Nyancat tool:
 
 ```cs
